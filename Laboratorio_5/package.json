@@ -1,0 +1,30 @@
+{
+  "name": "laboratorio_5",
+  "version": "0.0.1",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon app.js" 
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/2020-SEMI-TOPESP-II/Rodolfo_Marciscano.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "javascript",
+    "docker"
+  ],
+  "author": "RJMarciscanoV",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/2020-SEMI-TOPESP-II/Rodolfo_Marciscano/issues"
+  },
+  "homepage": "https://github.com/2020-SEMI-TOPESP-II/Rodolfo_Marciscano#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  }
+}
