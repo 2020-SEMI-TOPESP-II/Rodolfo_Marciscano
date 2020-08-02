@@ -1,0 +1,28 @@
+{
+  "name": "laboratorio_6",
+  "version": "0.0.1",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "mongo:start": "docker run --rm -p=27017:27017 --env-file=./.env --name=Lab6--mongo -d centos/mongodb-32-centos7",
+    "mongo:stop": "docker stop Lab6--mongo",
+    "start": "nodemon app.js"
+  },
+  "keywords": [
+    "docker",
+    "epress",
+    "javascript",
+    "node"
+  ],
+  "author": "RJMarciscanoV",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.20",
+    "nodemon": "^2.0.4",
+    "pug": "^3.0.0"
+  }
+}
